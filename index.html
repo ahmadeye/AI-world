@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>best online source</title>
+    <link rel="stylesheet" href="/css/mywebsite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bree+Serif&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <style>
+            * {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    height: 70%;
+}
+
+.nav-list {
+    width: 70%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 18px 25px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 40%;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    margin:2px;
+}
+
+.rightnav {
+    /* background-color: aqua; */
+    width: 30%;
+    text-align: right;
+    padding: 0px 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.5) url('https://images.pexels.com/photos/2607956/pexels-photo-2607956.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 75vh;
+}
+
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.secondhalf {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.secondhalf img {
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    border: 3px solid white;
+    display: block;
+    margin: auto;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 65%;
+}
+
+.text-big {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.text-small {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.btn {
+    padding: 6px 23px;
+    margin: 7px 3px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btm-sm {
+    padding: 1px 12px;
+    margin: 6px 0px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    vertical-align: middle;
+}
+
+.btm-sm:hover {
+    background-color: white;
+    color: black
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding:50px 10px;
+}
+
+.secleft {
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin-top: 7px;
+}
+
+.paras {
+    padding: 0px 60px;
+}
+
+.contact {
+    background-color: #f6f5f4;
+    height: 130vh;
+    align-items: center;
+}
+
+.text-centre {
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.form {
+    max-width: 340px;
+    margin: 35px auto;
+}
+
+.form-input {
+    padding: 3px 5px;
+    width: 100%;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 14px 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+    width: 40%;
+    margin: 10px 0px;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    color: #f6f5f4;
+
+}
+.burger{
+ position: absolute;
+ cursor: pointer;
+ right: 5%;
+ top:15px;
+ display: none;
+}
+.list{
+    width:33px;
+    background-color: white;
+    height: 4px;
+    margin:3px 3px;
+}
+@media only screen and (max-width:1000px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        height: 420px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 65px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .firsthalf{
+        margin-top: 3%;
+    }
+    .section{
+        flex-direction: column-reverse;
+        padding:20px;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center,justify;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding:0px;
+    }
+    .contact{
+        height: 80vh;
+    }
+    .secondhalf {
+        margin-top:28%;
+        width:40%;
+    }
+    .secondhalf img{
+        width:132px;
+        height: 132px;
+    }
+    #search {
+        padding: 5px;
+        font-size: 13px;
+        border: 2px solid black;
+        border-radius: 9px;
+        text-align: center;
+        width:30%;
+    }
+}
+@media only screen and (max-width:1097px) and (max-height:642px){
+    .secondhalf{
+        margin-top:15%;
+    }
+    .contact{
+        height:150vh;
+    }
+}
+        </style>
+</head>
+<body>
+    <nav class="navbar background h-nav">
+        <ul class="nav-list v-class">
+            <div class="logo"><img
+                    src="https://ideogram.ai/assets/progressive-image/balanced/response/_VgK7bXlQg2SJWazA0zKNQ"
+                    alt="Error loading"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+        <div class="rightnav v-class">
+            <input type="text" name="search" id="search" placeholder="search this website">
+            <a href="https://www.google.com" target="_blank"><button class="btm-sm">search</button></a>
+        </div>
+        <div class="burger">
+            <div class="list"></div>
+            <div class="list"></div>
+            <div class="list"></div>
+        </div>
+    </nav>
+    <section class="background firstsection" id="home">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">The future of AI is here</p>
+                <p class="text-Small">The future of AI is very bright and very impactful so there is need to educate our
+                    people or our youth about the incoming revolution AI.</p>
+                <div class="buttons">
+                    <a href="https://www.t.edu.pk/" target="_blank"><button class="btn">Join Us</button></a>
+                    <a href="https://www.youtube.com/watch?v=rJ1Qao09CFI&pp=ygUSaW50cm9kdWN0aW9uIHRvIEFJ"
+                        target="_blank"><button class="btn">Watch video</button></a>
+                </div>
+            </div>
+            <div class="secondhalf">
+                <img src="https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="Ai image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="About">
+        <div class="paras">
+            <p class="sectiontag text-big">The Beiging of AI</p>
+            <p class="sectionsubtag text-small">The "beiging" of AI refers to the trend where artificial intelligence,
+                especially in generative models, produces outputs that lack diversity, creativity, or distinctiveness,
+                resulting in bland, homogenized content. As AI systems are trained on vast amounts of data, they tend to
+                favor the average, often leading to outputs that reflect common patterns rather than unique or
+                innovative ideas. .</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/200/300" alt="Random Image">
+
+        </div>
+    </section>
+
+    <section class="section secleft">
+        <div class="paras">
+            <p class="sectiontag text-big">AI impact in life</p>
+            <p class="sectionsubtag text-small">The impact of AI on life is profound and far-reaching, transforming how
+                we work, live, and interact. AI has revolutionized industries by automating tasks, enhancing
+                decision-making, and enabling new forms of creativity and innovation. In everyday life, it powers
+                personalized recommendations, virtual assistants, and smart home devices, making life more convenient
+                and efficient. .</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/200/300?Machine,computer" alt="Random Image">
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">The Revolution of AI</p>
+            <p class="sectionsubtag text-small">The AI revolution is rapidly transforming the world, driving
+                unprecedented changes across industries and everyday life. This revolution is characterized by the
+                widespread adoption of artificial intelligence technologies, which are enabling machines to perform
+                tasks that once required human intelligence—such as learning, reasoning, problem-solving, and even
+                creativity and innovation and it is very impactful..</p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://picsum.photos/200/300?laptop,computer" alt="Random Image">
+        </div>
+    </section>
+    <section class="contact" id="Contact">
+        <h2 class="text-centre">Contact Us</h2>
+        <div class="form">
+            <input class="form-input" type="text" id="name" name="name" placeholder="Enter your Name">
+            <input class="form-input" type="phone" id="phone" name="phone" placeholder="Enter your phone">
+            <input class="form-input" type="Email" id="email" name="Email" placeholder="Enter your email">
+            <textarea class="form-input" name="text" id="Text" cols="30" rows="10">Share Your Though</textarea>
+            <button class="btn btn1">Submit Now</button>
+        </div>
+    </section>
+
+    <footer class="background">
+        Copy: &copy;All right Reserved Www.Online learing.com
+    </footer>
+    <script>
+  burger = document.querySelector('.burger')
+  navbar = document.querySelector('.navbar')
+  rightnav = document.querySelector('.rightnav')
+  navlist = document.querySelector('.nav-list')
+
+
+burger.addEventListener('click', ()=>{
+rightnav.classList.toggle('v-class')
+navlist.classList.toggle('v-class')
+navbar.classList.toggle('h-nav')
+})
+    </script>
+</body>
+</html>
